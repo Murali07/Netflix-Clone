@@ -21,14 +21,14 @@ export default function Card({ movieData, isLiked = false }) {
 
   const dispatch = useDispatch();
 
-  onAuthStateChanged(firebaseAuth, (currentUSer) => {
-    if (currentUSer) setEmail(currentUSer.email);
+  onAuthStateChanged(firebaseAuth, (currentUser) => {
+    if (currentUser) setEmail(currentUser.email);
     else navigate("/login");
   });
 
   const addToList = async () => {
     try {
-      await axios.post("http://localhost:5000/api/user/add", {
+      await axios.post("https://netflix-clone-b6vm.onrender.com/api/user/add", {
         email,
         data: movieData,
       });

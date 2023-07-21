@@ -86,6 +86,7 @@ const Container = styled.div`
     padding: 0 4rem;
     align-items: center;
     transition: 0.3s ease-in-out;
+    background: linear-gradient(to top, transparent 0%, rgb(0,0,0,0.3) 50%);
     .left {
       gap: 2rem;
       .brand {
