@@ -4,15 +4,20 @@
 
   <h1>Netflix Clone</h1>
   <br />
+
+  <p>A Netflix clone built using React JS, Redux Toolkit, Node.js, Express, MongoDB, React-icons. It fetches the data from TMDB (The Movie Database) API. It also displays the movie trailers which is fetched from Youtube.</p>
   
   <h4>
-    <a href="https://netflix-sclone.netlify.app">View Demo</a></h4>
+    <a href="https://fascinating-marzipan-c9fd15.netlify.app/">View Demo</a></h4>
   <span> · </span>
-    <a href="https://github.com/SashenJayathilaka/NETFLIX-Clone/blob/master/README.md">Documentation</a>
+    <a href="https://github.com/Murali07/Netflix-Clone#readme">Documentation</a>
   <span> · </span>
     <a href="https://github.com/SashenJayathilaka/NETFLIX-Clone/issues">Report Bug</a>
   <span> · </span>
     <a href="https://github.com/SashenJayathilaka/NETFLIX-Clone/issues">Request Feature</a>
+
+    ![image](https://github.com/Murali07/Netflix-Clone/assets/18513537/c5bca276-c436-4cae-b97c-19b5f468346d)
+
   
 </div>
 
