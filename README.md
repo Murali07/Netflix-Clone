@@ -114,59 +114,80 @@ Install latest version of npm
 
 **Logging In**
 
-![](./public/images/readme/Sign_In.png)
+![readme-login](https://github.com/Murali07/Netflix-Clone/assets/18513537/16404389-7ee8-493b-bba5-af772e55d49b)
 
 1. Go to Sign In page.
-   - From the homepage, click 'Sign in' button.
-   - From Sign Up page, click the 'Sign in now' link below 'Sign Up' button.
+   - From the Sign Up page, click 'Log In' button.  
 2. Input the necessary fields and proceed.
-   - You can sign in using either email or phone number.
+   - You can sign in using email and password which is created in the above steps.
+
+<br />   
 
 **Searching for a Show**
 
-![](./public/images/readme/Search.png)
+![readme-header](https://github.com/Murali07/Netflix-Clone/assets/18513537/be68e059-e360-45b7-98a8-f3a49ae084a6)
 
-1. Log in and select a profile.
+![readme-movies](https://github.com/Murali07/Netflix-Clone/assets/18513537/8041dce5-f4d2-49e5-bcb5-519303214b13)
+
+![readme-tvShows](https://github.com/Murali07/Netflix-Clone/assets/18513537/c5fadd1c-5e69-42f1-9a9e-064f97101875)
+
+1. Once successful login you will be redirected to Netflix home page.
 2. Click the appropriate tab for your search.
    - If searching for a movie, click 'Movies' tab in the header.
    - If searching for a series, click 'TV Shows' tab in the header.
 3. Click the search icon on the header.
 4. Input your search term and press enter.
-5. To show all shows again, clear the search input and press enter.
 
-**Adding User Profile**
+<br />
 
-![](./public/images/readme/Add_Profile.png)
+**Adding Movie/TV to My List**
 
-1. Log in to your account.
-2. Click 'Manage Profiles'.
-3. Click 'Add Profile'.
-   - You can only add up to 5 profiles for each account.
-4. Click the pencil/edit icon and choose your preferred avatar.
-5. Enter your preferred display name and click 'Save'.
-   - You can't use avatars and names already used by other profiles in the same account.
+![readme-addtolist](https://github.com/Murali07/Netflix-Clone/assets/18513537/023874b7-4571-4c2b-b2e0-252b60679539)
 
-**Editing User Profile**
+![readme-myList](https://github.com/Murali07/Netflix-Clone/assets/18513537/f8b85777-6cbb-4a0f-a339-7293899d5786)
 
-![](./public/images/readme/Edit_Profile.png)
+1. Mouse hover the movie/tv show then click 'Add to my list' icon to add it to your My List.
+2. Click 'My List' tab in the header.
+3. You can see your added lists in 'My List' page.
 
-1. Log in to your account.
-2. Click 'Manage Profiles'.
-3. Click the profile you wish to edit.
-4. Modify the profile as you see fit and click 'Save'.
+<br />
 
-**Deleting User Profile**
+**Deleting My List**
 
-![](./public/images/readme/Delete_Profile.png)
+![readme-deleteList](https://github.com/Murali07/Netflix-Clone/assets/18513537/7e030bba-68be-4e91-a2f3-bc7003fb4bf1)
 
-1. Log in to your account.
-2. Click 'Manage Profiles'.
-3. Click the profile you wish to delete.
-4. Click 'Delete Profile'.
-5. Confirm deletion by clicking 'Yes'.
+1. Mouse hover the movie/tv show then click 'Remove From List' icon to remove it from your My List.
+2. Remove cursor from the movie and you can see the movie has been deleted from My List.
+
+<br />
+
+**Play Movie**
+
+![readme-watch](https://github.com/Murali07/Netflix-Clone/assets/18513537/850120ca-4220-419a-abe1-05653db7a9b1)
+
+1. Click 'Play' button/icon.
+2. You will be redirected to Watch Page and video will be playing.
+3. Click on three dots, you can see options like Download, Playback Speed, and Picture in picture.
+4. Click backarrow icon to go back.
+
+<br />
+
+**Select Movie/TV by genre**
+
+![readme-genere](https://github.com/Murali07/Netflix-Clone/assets/18513537/23324912-c642-4eeb-b0c5-5cffee1ccdc0)
+
+1. Click on the drop down button from Movie/TV page.
+2. Select the genres from the options.
+3. Movies/TV shows will be displayed as per the selected genre.
+
 
 ## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
+
+- Deploy the front-end and back-end separately, either on platforms like Vercel/Netlify (front-end) and Render (back-end) or any other hosting service you prefer.
+- Ensure that the environment variables and sensitive data are handled securely during deployment.
+
+## <img src="https://www.anythingit.net/wp-content/uploads/2020/04/todo.png" width="28" height="auto" /> TODO <a name = "todo"><a />
+
 
 ## :handshake: Contact <a name = "contact"></a>
 
