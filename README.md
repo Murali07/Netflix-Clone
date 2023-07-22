@@ -1,5 +1,20 @@
-# Netflix Clone
-Project logo
+<div align="center">
+
+  <img src="https://user-images.githubusercontent.com/99184393/211183762-03b6e9b4-9fcd-4874-a0e4-20cf00537c06.gif" alt="logo" width="400" height="auto" />
+
+  <h1>Netflix Clone</h1>
+  <br />
+  
+  <h4>
+    <a href="https://netflix-sclone.netlify.app">View Demo</a></h4>
+  <span> · </span>
+    <a href="https://github.com/SashenJayathilaka/NETFLIX-Clone/blob/master/README.md">Documentation</a>
+  <span> · </span>
+    <a href="https://github.com/SashenJayathilaka/NETFLIX-Clone/issues">Report Bug</a>
+  <span> · </span>
+    <a href="https://github.com/SashenJayathilaka/NETFLIX-Clone/issues">Request Feature</a>
+  
+</div>
 
 Project Title
 Status GitHub Issues GitHub Pull Requests License
