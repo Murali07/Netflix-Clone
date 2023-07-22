@@ -1,4 +1,4 @@
-project-documentation
+<h1>Netflix Clone</h1>
 Project logo
 
 Project Title
