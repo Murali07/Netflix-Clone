@@ -27,7 +27,7 @@
 - [Getting Started](#getting_started)
 - [Usage](#usage)
 - [Deployment](#deployment) 
-- [TODO](../TODO.md)
+- [TODO](#todo)
 - [Contact](#contact)
   
 ## 🧐 About <a name = "about"></a>
