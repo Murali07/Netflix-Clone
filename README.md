@@ -45,17 +45,6 @@ A Netflix clone built using React, Redux Toolkit, Nodejs, Express, MongoDB. It f
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-```
-Create an account if you don't have on TMDB. Because I use its free API to consume movie/tv data.
-```
-
-```
-And then follow the documentation to create API Key.
-```
-
-```
-Finally, if you use v3 of TMDB API, create a file named .env, and then paste the API Key you just created.
-```
 
 Install latest version of npm
 
@@ -68,7 +57,7 @@ Install latest version of npm
 
 1. Clone the project
    ```
-   git clone https://github.com/Murali07/Netflix-Clone.git
+   git clone https://github.com/Murali07/Netflix-Clone/tree/netflix-backend
    ```
 2. Go to project directory and Install NPM packages
    ```
@@ -76,21 +65,11 @@ Install latest version of npm
    ```
 3. Create .env file
    
-4. Request an API key from TMDB and add it to your .env
+4. Create database at MongoDB Atlas and add url to config.env
    ```
-   API_KEY=""
-
-   TMDB_BASE_URL = "https://api.themoviedb.org/"
+   MONGO_URL=""   
    ```
-5. In a new directory, clone the backend and follow installation instructions on its README
-   ```
-   git clone https://github.com/Murali07/Netflix-Clone/tree/netflix-backend
-   ```
-6. You should now have the server running locally. Add the url to your .env
-   ```
-   SERVER_URL=http://localhost:5000
-   ```
-7. Start the application
+5. Start the application
    ```
    npm start
    ```
