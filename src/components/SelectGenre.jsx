@@ -29,4 +29,9 @@ cursor: pointer;
 font-size: 1.4rem;
 background-color: rgba(0,0,0,0.4);
 color: white;
+
+@media (max-width: 760px) {
+  margin-left: 2rem;
+  font-size: 1.4rem;
+}
 `;

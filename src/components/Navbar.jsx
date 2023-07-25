@@ -20,7 +20,6 @@ export default function Navbar({ isScrolled }) {
     if (!currentUSer) navigate("/login");
   });
 
-
   const [showSearch, setShowSearch] = useState(false);
   const [inputHover, setInputHover] = useState(false);
 
@@ -35,7 +34,7 @@ export default function Navbar({ isScrolled }) {
             {links.map(({ name, link }) => {
               return (
                 <li key={name}>
-                  <Link to={link}>{name}</Link> 
+                  <Link to={link}>{name}</Link>
                 </li>
               );
             })}
@@ -86,7 +85,7 @@ const Container = styled.div`
     padding: 0 4rem;
     align-items: center;
     transition: 0.3s ease-in-out;
-    background: linear-gradient(to top, transparent 0%, rgb(0,0,0,0.3) 50%);
+    background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 50%);
     .left {
       gap: 2rem;
       .brand {
@@ -154,6 +153,41 @@ const Container = styled.div`
           opacity: 1;
           visibility: visible;
           padding: 0.3rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 760px) {
+    nav {
+      height: 7rem;
+      padding: 0 1rem 0 0;
+      .left {
+        display: flex;
+        flex-direction: column;
+        .brand {
+          top: 1rem;
+          left: 0;
+          position: fixed;
+          img {
+            height: 4rem;
+          }
+        }
+        .links {
+          position: fixed;
+          margin-top: 5rem;
+          top: 0;
+          left: 2rem;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 350px) {
+    nav {
+      .left {
+        .links {
+          left: 0.5rem;
         }
       }
     }

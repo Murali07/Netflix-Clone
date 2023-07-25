@@ -26,7 +26,7 @@ export default function Netflix() {
 
   useEffect(() => {
     if (genresLoaded) dispatch(fetchMovies({ type: "all" }));
-  },[genresLoaded]);
+  }, [genresLoaded]);
 
   window.onscroll = () => {
     setIsScrolled(window.scrollY === 0 ? false : true);
@@ -61,7 +61,7 @@ export default function Netflix() {
           </div>
         </div>
       </div>
-      <Slider movies={movies}/>
+      <Slider movies={movies} />
     </Container>
   );
 }
@@ -75,7 +75,7 @@ const Container = styled.div`
     }
     img {
       width: 100vw;
-      height: vh;
+      height: 100vh;
     }
     .container {
       position: absolute;
@@ -108,6 +108,47 @@ const Container = styled.div`
             color: white;
             svg {
               font-size: 1.8rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 760px) {
+    .hero {
+      .background-image {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+      }
+      .container {
+        margin: auto;
+        margin-bottom: 5px;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        .logo {
+          img {
+            width: 80vw;
+            margin-left: 1.5rem;
+          }
+        }
+        .buttons {
+          margin: auto;
+          margin-left: 1.5rem;
+          gap: 1rem;
+          button {
+            font-size: 1rem;
+            gap: 0.5rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            &:nth-of-type(2) {
+              svg {
+                font-size: 1.5rem;
+              }
             }
           }
         }

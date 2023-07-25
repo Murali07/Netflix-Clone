@@ -88,7 +88,7 @@ export default function Signup() {
             )}
             {message ? (
               <p>
-                <VscError/>
+                <VscError />
                 {message}
               </p>
             ) : (
@@ -125,9 +125,6 @@ const Container = styled.div`
         gap: 1.25rem;
         text-align: center;
         font-size: 2rem;
-        /* h1 {
-          padding: 0 25rem;
-        } */
         h4 {
           font-size: 1.5rem;
           font-weight: 500;
@@ -180,6 +177,64 @@ const Container = styled.div`
         border-radius: 0.2rem;
         font-weight: bolder;
         font-size: 1.05rem;
+      }
+    }
+  }
+
+  @media (max-width: 760px) {
+    .content {
+      .body {
+        .text {
+          text-align: center;
+          font-size: 1.05rem;
+          padding: 0 1.25rem 0 0;
+          h1 {
+            margin: 0;
+          }
+          h4 {
+            font-size: 1.125rem;
+            font-weight: 500;
+          }
+          h6 {
+            padding: 0 3.5rem;
+            margin: 0.5rem 0 0;
+            font-size: 1.125rem;
+            font-weight: 400;
+            line-height: 1.6875rem;
+          }
+        }
+        .form {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          width: 80%;
+
+          input {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 1rem;
+            border: 1px solid grey;
+            border-radius: 2px;
+            z-index: 1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 1rem;
+            color: white;
+            line-height: 1.5rem;
+            left: 1rem;
+            right: 1rem;
+            top: 0.75rem;
+          }
+          button {
+            width: 55%;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            font-size: 1.25rem;
+            min-height: 3.5rem;
+          }
+        }
       }
     }
   }

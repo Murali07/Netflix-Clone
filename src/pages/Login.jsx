@@ -140,4 +140,50 @@ const Container = styled.div`
       }
     }
   }
+
+  @media (max-width: 760px) {
+    .content {
+      .form-container {
+        .form {
+          .title {
+            font-size: 28px;
+          }
+          width: auto;
+          .container {
+            width: 15rem;
+            gap: 1.5rem;
+            input {
+              padding: 0.5rem 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 761px) and (max-width: 950px) {
+    .content {
+      .form-container {
+        .form {
+          width: 50%;
+          .container {
+            width: 20rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 951px) and (max-width: 1300px) {
+    .content {
+      .form-container {
+        .form {
+          width: auto;
+          .container {
+            width: 20rem;
+          }
+        }
+      }
+    }
+  }
 `;

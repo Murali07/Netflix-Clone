@@ -10,13 +10,13 @@ export default function CardSlider({ data, title }) {
 
   const handleDirection = (direction) => {
     let distance = listRef.current.getBoundingClientRect().x - 70;
-    if(direction === "left" && sliderPosition > 0){
-        listRef.current.style.transform = `translateX(${230 + distance}px)`;
-        setSliderPosition(sliderPosition - 1);
+    if (direction === "left" && sliderPosition > 0) {
+      listRef.current.style.transform = `translateX(${230 + distance}px)`;
+      setSliderPosition(sliderPosition - 1);
     }
-    if(direction === "right" && sliderPosition < 4){
-        listRef.current.style.transform = `translateX(${-230 + distance}px)`;
-        setSliderPosition(sliderPosition + 1);
+    if (direction === "right" && sliderPosition < 4) {
+      listRef.current.style.transform = `translateX(${-230 + distance}px)`;
+      setSliderPosition(sliderPosition + 1);
     }
   };
 
@@ -84,10 +84,26 @@ const Contianer = styled.div`
       display: none;
     }
     .left {
-        left: 0;
+      left: 0;
     }
     .right {
-        right: 0;
+      right: 0;
+    }
+  }
+
+  @media (max-width: 760px) {
+    h1 {
+      margin-left: 15px;
+    }
+    .wrapper {
+      .slider {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+      }
+      .slider-action {
+        display: none;
+      }
     }
   }
 `;

@@ -17,4 +17,12 @@ const Container = styled.div`
     height: 100vh;
     width: 100vw;
   }
+
+  @media (max-width: 760px) {
+    img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
 `;

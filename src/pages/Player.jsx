@@ -38,4 +38,30 @@ const Container = styled.div`
       object-fit: cover;
     }
   }
+
+  @media (max-width: 760px) {
+    .player {
+      .back {
+        position: absolute;
+        transform: rotate(90deg);
+        right: 0;
+        z-index: 5;
+        svg {
+          font-size: 2rem;
+        }
+      }
+
+      video {
+        position: absolute;
+        transform: rotate(90deg);
+        transform-origin: bottom left;
+        width: 100vh;
+        height: 100vw;
+        margin-top: -100vw;
+        object-fit: cover;
+        z-index: 4;
+        visibility: visible;
+      }
+    }
+  }
 `;

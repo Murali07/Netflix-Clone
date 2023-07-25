@@ -66,4 +66,12 @@ const Container = styled.div`
       gap: 1rem;
     }
   }
+
+  @media (max-width: 760px) {
+    .content {
+      h1 {
+        margin-left: 0;
+      }
+    }
+  }
 `;
