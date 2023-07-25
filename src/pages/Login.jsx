@@ -4,7 +4,7 @@ import BackgroundImage from "../components/BackgroundImage";
 import Header from "../components/Header";
 import { onAuthStateChanged, signInWithEmailAndPassword } from "firebase/auth";
 import { firebaseAuth } from "../utils/firebase-config";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -67,7 +67,10 @@ export default function Login() {
               <button onClick={handleLogIn}>Log In</button>
               <span>
                 New to Netflix?
-                <a href="/signup">Sign up now</a>.
+                <Link to="/signup" className="signUpLink">
+                  Sign up now
+                </Link>
+                .
               </span>
               <small>
                 This page is protected by Google reCAPTCHA to enusre you're not
@@ -123,7 +126,7 @@ const Container = styled.div`
           span {
             color: #737373;
             font-weight: 400;
-            a {
+            .signUpLink {
               margin-left: 0.25rem;
               color: #fff;
               text-decoration: none;
