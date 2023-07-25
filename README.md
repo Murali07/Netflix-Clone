@@ -27,7 +27,7 @@
 - [Getting Started](#getting_started)
 - [Usage](#usage)
 - [Deployment](#deployment) 
-- [TODO](../TODO.md)
+- [TODO](#todo)
 - [Contact](#contact)
   
 ## 🧐 About <a name = "about"></a>
@@ -183,10 +183,44 @@ Install latest version of npm
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-- Deploy the front-end and back-end separately, either on platforms like Vercel/Netlify (front-end) and Render (back-end) or any other hosting service you prefer.
+- Deploy the front-end and back-end separately, either on platforms like [Vercel](https://vercel.com/)/[Netlify](https://www.netlify.com/) (front-end) and [Render](https://render.com/) (back-end) or any other hosting service you prefer.
 - Ensure that the environment variables and sensitive data are handled securely during deployment.
 
 ## <img src="https://www.anythingit.net/wp-content/uploads/2020/04/todo.png" width="28" height="auto" /> TODO <a name = "todo"><a />
+
+**1. Project Setup:**
+
+- Set up the front-end using React and Redux Toolkit for state management.
+- Create a backend using Node.js and Express to handle API requests.
+- Set up a MongoDB database to store movie and user-related data.
+- Implement Firebase authentication for user sign-up and login.
+- Utilize Firebase Storage to store user details.
+
+**2. Front-End:**
+
+- Create different components for the homepage, movie/TV show details, user authentication, and user profile.
+- Implement React Router to handle navigation between different pages.
+- Use Redux Toolkit for state management to manage data fetched from the TMDB API and local storage (for trailers).- 
+- Fetch movie and TV show data from the TMDB API to display on the homepage.
+- Enable users to search for movies/TV shows using the TMDB API.
+- Add buttons to add or remove movies/TV shows to/from "My List".
+
+**3. Firebase Authentication:**
+
+- Implement Firebase authentication using Firebase SDK in your React application.
+- Set up sign-up and login pages for users to create accounts and log in.
+- Store user authentication details in Firebase.
+
+**4. Back-End:**
+
+- Create API endpoints using Node.js and Express to handle CRUD operations for movies and TV shows.
+- Set up routes for adding/deleting movies or TV shows to/from the user's list.
+- Connect to the MongoDB database to perform CRUD operations for storing and retrieving movie data.
+
+**5. Deployment:**
+
+- Deploy the front-end and back-end separately, either on platforms like Vercel/Netlify (front-end) and Heroku (back-end) or any other hosting service you prefer.
+- Ensure that the environment variables and sensitive data are handled securely during deployment.
 
 
 ## :handshake: Contact <a name = "contact"></a>
